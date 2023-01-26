@@ -153,12 +153,24 @@ function App() {
 											</div>
 											<div class="bar">
 												<div class="info">
-													<span>BEM</span>
+													<span>MUI</span>
 												</div>
 												<div class="progress-line">
-													<span class="c"></span>
+													<span class="mui"></span>
 												</div>
 											</div>
+											<div class="info">
+												<span>REACT</span>
+											</div>
+											<div class="progress-line">
+												<span class="c"></span>
+											</div>
+										</div>
+										<div class="info">
+											<span>BEM</span>
+										</div>
+										<div class="progress-line">
+											<span class="bem"></span>
 										</div>
 									</div>
 								</div>

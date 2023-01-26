@@ -441,7 +441,7 @@ hr {
 }
 
 .progress-line .html {
-	width: 100%;
+	width: 87%;
 }
 .progress-line .css {
 	width: 90%;
@@ -452,9 +452,14 @@ hr {
 .progress-line .javascript {
 	width: 80%;
 }
-
+.progress-line .mui {
+	width: 85%;
+}
 .progress-line .c {
-	width: 70%;
+	width: 90%;
+}
+.progress-line .bem {
+	width: 80%;
 }
 
 .bar .progress-line span::before {
@@ -484,7 +489,7 @@ hr {
 }
 
 .progress-line .html::after {
-	content: "100%";
+	content: "87%";
 }
 .progress-line .css::after {
 	content: "90%";
@@ -493,10 +498,19 @@ hr {
 	content: "82%";
 }
 .progress-line .javascript::after {
-	content: "42%";
+	content: "80%";
+}
+.progress-line .mui::after {
+	content: "85%";
 }
 .progress-line .c::after {
-	content: "70%";
+	content: "90%";
+}
+.progress-line .c::after {
+	content: "90%";
+}
+.progress-line .bem::after {
+	content: "80%";
 }
 
 @media (max-width: 700px) {
